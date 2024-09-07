@@ -1,6 +1,7 @@
 name: Build MacOS
 
 on:
+  workflow_dispatch:
   push:
     branches: [ "qml" ]
   pull_request:
